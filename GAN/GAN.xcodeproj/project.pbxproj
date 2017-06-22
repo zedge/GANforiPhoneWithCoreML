@@ -103,9 +103,9 @@
 		600FBD101EFAB9E000E09A64 /* GAN */ = {
 			isa = PBXGroup;
 			children = (
-				600FBD411EFABAA900E09A64 /* Generator */,
 				600FBD111EFAB9E000E09A64 /* AppDelegate.swift */,
 				600FBD131EFAB9E000E09A64 /* ViewController.swift */,
+				600FBD411EFABAA900E09A64 /* Generator */,
 				600FBD151EFAB9E000E09A64 /* Main.storyboard */,
 				600FBD181EFAB9E000E09A64 /* Assets.xcassets */,
 				600FBD1A1EFAB9E000E09A64 /* LaunchScreen.storyboard */,
@@ -544,6 +544,7 @@
 				600FBD381EFAB9E000E09A64 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		600FBD391EFAB9E000E09A64 /* Build configuration list for PBXNativeTarget "GANTests" */ = {
 			isa = XCConfigurationList;
@@ -552,6 +553,7 @@
 				600FBD3B1EFAB9E000E09A64 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		600FBD3C1EFAB9E000E09A64 /* Build configuration list for PBXNativeTarget "GANUITests" */ = {
 			isa = XCConfigurationList;
@@ -560,6 +562,7 @@
 				600FBD3E1EFAB9E000E09A64 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

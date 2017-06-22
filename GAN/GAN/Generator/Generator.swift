@@ -41,7 +41,7 @@ class Generator {
             for i in 0..<28 {
                 var s: String = ""
                 for y in 0..<28 {
-                    let out = Double(generated.output1[i*28 + y])
+                    let out = generated.output1[i*28 + y] as! Double
                     
                     if out < 0 {
                         s = "\(s)\(0)"
