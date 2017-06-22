@@ -34,25 +34,28 @@ class Generator {
     /**
      * Use the model to generate picture data.
      */
-    func generate(input: MLMultiArray) -> MLMultiArray? {
+    func generate(input: MLMultiArray, verbose: Bool = false) -> MLMultiArray? {
         if let generated = try? model.prediction(input1: input) {
             
-            // Print the number to console.
-            for i in 0..<28 {
-                var s: String = ""
-                for y in 0..<28 {
-                    let out = generated.output1[i*28 + y] as! Double
+            if verbose {
+                // Print the number to console.
+                for i in 0..<28 {
+                    var s: String = ""
+                    for y in 0..<28 {
+                        let out = generated.output1[i*28 + y] as! Double
+                        
+                        if out < 0 {
+                            s = "\(s)\(0)"
+                        }
+                        else {
+                            s = "\(s)\(1)"
+                        }
+                    }
                     
-                    if out < 0 {
-                        s = "\(s)\(0)"
-                    }
-                    else {
-                        s = "\(s)\(1)"
-                    }
+                    print(s)
                 }
-                
-                print(s)
             }
+            
             
             return generated.output1
             

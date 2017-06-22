@@ -58,7 +58,7 @@ class ViewController: UIViewController {
     
     @objc func generateImage() {
         if let data = generator.generateRandomData(),
-            let output = generator.generate(input: data) {
+            let output = generator.generate(input: data, verbose: true) {
             
             let byteData = convert(output)
             let image = createImage(data: byteData, width: 28, height: 28, components: 1)
