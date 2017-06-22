@@ -12,7 +12,7 @@ import CoreML
 
 class Generator {
     
-    let model = mnistGenerator3()
+    let model = mnistGenerator()
     
     /**
      * Generate some random data that can be used as input for the MLModel.

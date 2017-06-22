@@ -14,7 +14,7 @@
 		600FBD1C1EFAB9E000E09A64 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 600FBD1A1EFAB9E000E09A64 /* LaunchScreen.storyboard */; };
 		600FBD271EFAB9E000E09A64 /* GANTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 600FBD261EFAB9E000E09A64 /* GANTests.swift */; };
 		600FBD321EFAB9E000E09A64 /* GANUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 600FBD311EFAB9E000E09A64 /* GANUITests.swift */; };
-		600FBD401EFABA7D00E09A64 /* mnistGenerator3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 600FBD3F1EFABA7D00E09A64 /* mnistGenerator3.mlmodel */; };
+		600FBD401EFABA7D00E09A64 /* mnistGenerator.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 600FBD3F1EFABA7D00E09A64 /* mnistGenerator.mlmodel */; };
 		600FBD431EFABABC00E09A64 /* Generator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 600FBD421EFABABC00E09A64 /* Generator.swift */; };
 		600FBD451EFABC7100E09A64 /* DeviceInformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 600FBD441EFABC7100E09A64 /* DeviceInformation.swift */; };
 /* End PBXBuildFile section */
@@ -50,7 +50,7 @@
 		600FBD2D1EFAB9E000E09A64 /* GANUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GANUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		600FBD311EFAB9E000E09A64 /* GANUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GANUITests.swift; sourceTree = "<group>"; };
 		600FBD331EFAB9E000E09A64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		600FBD3F1EFABA7D00E09A64 /* mnistGenerator3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = mnistGenerator3.mlmodel; sourceTree = "<group>"; };
+		600FBD3F1EFABA7D00E09A64 /* mnistGenerator.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = mnistGenerator.mlmodel; sourceTree = "<group>"; };
 		600FBD421EFABABC00E09A64 /* Generator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Generator.swift; sourceTree = "<group>"; };
 		600FBD441EFABC7100E09A64 /* DeviceInformation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceInformation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -136,7 +136,7 @@
 		600FBD411EFABAA900E09A64 /* Generator */ = {
 			isa = PBXGroup;
 			children = (
-				600FBD3F1EFABA7D00E09A64 /* mnistGenerator3.mlmodel */,
+				600FBD3F1EFABA7D00E09A64 /* mnistGenerator.mlmodel */,
 				600FBD421EFABABC00E09A64 /* Generator.swift */,
 			);
 			path = Generator;
@@ -273,7 +273,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				600FBD401EFABA7D00E09A64 /* mnistGenerator3.mlmodel in Sources */,
+				600FBD401EFABA7D00E09A64 /* mnistGenerator.mlmodel in Sources */,
 				600FBD451EFABC7100E09A64 /* DeviceInformation.swift in Sources */,
 				600FBD431EFABABC00E09A64 /* Generator.swift in Sources */,
 				600FBD141EFAB9E000E09A64 /* ViewController.swift in Sources */,
