@@ -82,7 +82,7 @@ class ViewController: UIViewController {
         
         for i in 0..<data.count {
             let out = data[i]
-            let floatOut = Float32(out)
+            let floatOut = out as! Float32
             
             if DeviceInformation.simulator {
                 let bytesOut = toByteArray((floatOut + 1.0) / 2.0)
